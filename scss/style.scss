@@ -1,112 +1,96 @@
-
-
 @import "./componentes/header";
 
 
 
-*{
+* {
     padding: 0px;
     margin: 0px;
-  }
+}
 
-div{
+div {
     margin-left: 20px;
     margin-top: 10px;
-    h1{
+
+    h1 {
         border-left: solid 5px brown;
         margin-bottom: 30px;
-        h4{
-            text-decoration: underline;
 
-        }
     }
 }
 
 
-
-  body{
+body {
     background-color: rgb(243, 218, 186);
-  }
-  
+}
 
-  .icon{
+
+.icon {
     height: 80px;
     top: 0px;
     left: 0px;
-  }
-  
-  .mar{
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-  
-  .sub{
-    text-decoration: underline;
-  }
-  
-  .bor{
-  border-left: solid 5px brown;
-  margin-bottom: 30px;
-  }
-  .mar-top{
+}
+
+
+.mar-top {
     margin-top: 20px;
-  }
-  
-  .centrar{
+}
+
+.centrar {
     text-align: center;
-  }
-  
-  .vi{
+}
+
+.vi {
     margin-left: 500px;
     margin-top: 50px;
     border: solid 5px brown
-  }
-  
-  table tr td{
+}
+
+table tr td {
     border: solid 3px brown
-  }
-  
-  .primero{
+}
+
+.primero {
     font-weight: bold;
     margin-top: 50px;
     font-size: 40px;
     margin-bottom: 20px;
     font-style: italic;
-  }
-  
-  .segundo{
+}
+
+.segundo {
     font-weight: bold;
     font-size: 40px;
     font-style: italic;
     margin-bottom: 200px;
-  }
-  
-  .tercero{
+}
+
+.tercero {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
     text-decoration: underline brown;
-  
-  }
-  div form{
+
+}
+
+div form {
     margin-top: 40px;
-  }
-  
-  main div img{
+}
+
+main div img {
     width: 200px;
-  }
-  
-  .bordear{
+}
+
+.bordear {
     border: solid 3px brown;
-  }
-  .activo{
+}
+
+.activo {
     background-color: rgb(255, 102, 0);
     color: white;
-  }
-  
-  .carro{
+}
+
+.carro {
     width: 500px;
     height: 500px;
     object-fit: cover
-  
-  }
+}

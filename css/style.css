@@ -36,9 +36,6 @@ div h1 {
   border-left: solid 5px brown;
   margin-bottom: 30px;
 }
-div h1 h4 {
-  text-decoration: underline;
-}
 
 body {
   background-color: rgb(243, 218, 186);
@@ -48,20 +45,6 @@ body {
   height: 80px;
   top: 0px;
   left: 0px;
-}
-
-.mar {
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-.sub {
-  text-decoration: underline;
-}
-
-.bor {
-  border-left: solid 5px brown;
-  margin-bottom: 30px;
 }
 
 .mar-top {
