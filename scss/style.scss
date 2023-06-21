@@ -1,3 +1,5 @@
+@import "./abstract/maps";
+@import "./abstract/variables";
 @import "./componentes/header";
 
 
@@ -50,23 +52,18 @@ table tr td {
 }
 
 .primero {
-    font-weight: bold;
+    @extend .reutilizable;
     margin-top: 50px;
-    font-size: 40px;
     margin-bottom: 20px;
-    font-style: italic;
 }
 
 .segundo {
-    font-weight: bold;
-    font-size: 40px;
-    font-style: italic;
+    @extend .reutilizable;
     margin-bottom: 200px;
 }
 
 .tercero {
-    font-weight: bold;
-    font-size: 40px;
+    @extend .reutilizable;
     text-align: center;
     text-decoration: underline brown;
 
@@ -93,4 +90,10 @@ main div img {
     width: 500px;
     height: 500px;
     object-fit: cover
+}
+
+.reutilizable{
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
 }
