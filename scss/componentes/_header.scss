@@ -1,3 +1,4 @@
+@import "../abstract/listas";
 header {
     nav {
         ul {
@@ -6,7 +7,7 @@ header {
             list-style-type: none;
             justify-content: space-between;
             padding: 10px;
-            background-color: rgb(250, 217, 173);
+            background-color: nth($colores , 5 );
 
             li {
                 a {
@@ -14,7 +15,7 @@ header {
                     font-family: 'Prompt', sans-serif;
                     font-weight: bold;
                     color: black;
-                    background-color: rgb(226, 43, 43);
+                    background-color: nth($colores , 4 );
                     padding: 5px;
                     margin: 5px;
                     text-decoration: none;
