@@ -58,11 +58,6 @@ body {
 .vi {
   margin-left: 500px;
   margin-top: 50px;
-  border: solid 5px brown;
-}
-
-table tr td {
-  border: solid 3px brown;
 }
 
 .primero {
@@ -87,8 +82,8 @@ main div img {
   width: 200px;
 }
 
-.bordear {
-  border: solid 3px brown;
+.bordear, .vi {
+  border: solid 5px brown;
 }
 
 .activo {

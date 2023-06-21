@@ -44,12 +44,9 @@ body {
 .vi {
     margin-left: 500px;
     margin-top: 50px;
-    border: solid 5px brown
+    @extend .bordear
 }
 
-table tr td {
-    border: solid 3px brown
-}
 
 .primero {
     @extend .reutilizable;
@@ -69,16 +66,24 @@ table tr td {
 
 }
 
-div form {
-    margin-top: 40px;
+div {
+    form {
+        margin-top: 40px;
+    }
 }
 
-main div img {
-    width: 200px;
+main {
+    div {
+        img {
+            width: 200px;
+        }
+    }
 }
+
+
 
 .bordear {
-    border: solid 3px brown;
+    border: solid 5px brown;
 }
 
 .activo {
@@ -92,7 +97,7 @@ main div img {
     object-fit: cover
 }
 
-.reutilizable{
+.reutilizable {
     font-weight: bold;
     font-size: 40px;
     font-style: italic;
