@@ -1,11 +1,26 @@
+
+
 @import "./componentes/header";
+
+
 
 *{
     padding: 0px;
     margin: 0px;
   }
 
+div{
+    margin-left: 20px;
+    margin-top: 10px;
+    h1{
+        border-left: solid 5px brown;
+        margin-bottom: 30px;
+        h4{
+            text-decoration: underline;
 
+        }
+    }
+}
 
 
 

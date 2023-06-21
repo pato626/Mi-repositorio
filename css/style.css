@@ -28,6 +28,18 @@ header nav ul li a:hover {
   margin: 0px;
 }
 
+div {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+div h1 {
+  border-left: solid 5px brown;
+  margin-bottom: 30px;
+}
+div h1 h4 {
+  text-decoration: underline;
+}
+
 body {
   background-color: rgb(243, 218, 186);
 }
