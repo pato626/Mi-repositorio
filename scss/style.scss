@@ -105,3 +105,21 @@ main {
     font-size: 40px;
     font-style: italic;
 }
+
+@media screen and (max-width: 593px) {
+    header nav ul li a {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px;
+    }
+  }
+
+.bordearAbajo {
+    border-bottom: 5px solid black;
+    
+}
+
+dl, ol, ul {
+    margin-top: 0px;
+    margin-bottom: 0rem;
+}
