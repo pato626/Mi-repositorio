@@ -93,6 +93,7 @@ main div img {
 }
 
 .carro {
+  padding-top: 40px;
   width: 500px;
   height: 500px;
   object-fit: cover;
