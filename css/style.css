@@ -88,6 +88,10 @@ main div img {
   width: 200px;
 }
 
+.btncolor {
+  background-color: rgb(255, 102, 0);
+}
+
 .bordear, iframe {
   border: solid 5px brown;
 }
