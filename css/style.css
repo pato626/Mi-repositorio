@@ -29,12 +29,12 @@ header nav ul li a:hover {
 }
 
 div {
-  margin-left: 20px;
   margin-top: 10px;
 }
 div h1 {
   border-left: solid 5px brown;
   margin-bottom: 30px;
+  margin-left: 10px;
 }
 
 body {
@@ -55,9 +55,14 @@ body {
   text-align: center;
 }
 
-.vi {
-  margin-left: 420px;
-  margin-top: 50px;
+iframe {
+  margin-top: 70px;
+}
+
+.centrarvi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .primero {
@@ -83,7 +88,7 @@ main div img {
   width: 200px;
 }
 
-.bordear, .vi {
+.bordear, iframe {
   border: solid 5px brown;
 }
 
@@ -110,6 +115,9 @@ main div img {
     font-size: 14px;
     padding: 0px;
     margin: 0px;
+  }
+  iframe {
+    width: 350px;
   }
 }
 .bordearAbajo {

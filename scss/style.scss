@@ -11,12 +11,13 @@
 }
 
 div {
-    margin-left: 20px;
+    
     margin-top: 10px;
 
     h1 {
         border-left: solid 5px brown;
         margin-bottom: 30px;
+        margin-left: 10px;
 
     }
 }
@@ -42,12 +43,17 @@ body {
     text-align: center;
 }
 
-.vi {
-    margin-left: 420px;
-    margin-top: 50px;
+iframe {
+
+    margin-top: 70px;
     @extend .bordear
 }
+.centrarvi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
 .primero {
     @extend .reutilizable;
@@ -112,6 +118,10 @@ main {
         font-size: 14px;
         padding: 0px;
         margin: 0px;
+    }
+    iframe{
+        width: 350px;
+        
     }
   }
 
