@@ -91,6 +91,7 @@ main div img {
 
 .btncolor {
   background-color: rgb(226, 43, 43);
+  border-radius: 30px;
 }
 
 .bordear, iframe {
@@ -140,8 +141,9 @@ form {
 }
 form #mi-boton {
   background-color: brown;
-  font-size: 20px;
+  font-size: 18px;
   padding: 5px 10px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
