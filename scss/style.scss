@@ -29,11 +29,12 @@ body {
 
 
 .icon{
-    height: 80px;
+    
+    height: 100px;
     top: 0px;
-    left: 0px; 
-}
+    left: 0px;
 
+}
 
 .mar-top {
     margin-top: 35px;
@@ -69,7 +70,7 @@ iframe {
 .tercero {
     @extend .reutilizable;
     text-align: center;
-    text-decoration: underline brown;
+    text-decoration: underline nth($colores ,6);
 
 }
 
@@ -105,6 +106,10 @@ main {
     color: white;
 }
 
+.bordearca{
+    border: solid 5px #e91e63;
+    border-radius: 30px;
+}
 .carro {
     
     width: 500px;

@@ -16,11 +16,12 @@ header {
                     font-weight: bold;
                     color: black;
                     background-color: nth($colores , 6 );
-                    padding: 5px;
+                    padding: 10px;
                     margin: 5px;
                     text-decoration: none;
                     font-size: 15px;
                     border: 2px solid black;
+                    border-radius: 30px;
 
                     &:hover {
                         background-color: nth($colores ,7);
