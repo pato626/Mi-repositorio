@@ -15,7 +15,7 @@ div {
     margin-top: 10px;
 
     h1 {
-        border-left: solid 5px brown;
+        border-left: solid 5px nth($colores ,6);
         margin-bottom: 30px;
         margin-left: 10px;
 
@@ -24,7 +24,7 @@ div {
 
 
 body {
-    background-color: nth($colores , 3);
+    background-color: nth($colores , 7);
 }
 
 
@@ -90,18 +90,18 @@ main {
 }
 
 .btncolor{
-    background-color: nth($colores ,4);
+    background-color: nth($colores ,6);
     border-radius: 30px;
     
 }
 
 
 .bordear {
-    border: solid 5px brown;
+    border: solid 5px #e91e63;
 }
 
 .activo {
-    background-color: rgb(255, 102, 0);
+    background-color: nth($colores ,7);
     color: white;
 }
 
@@ -134,7 +134,7 @@ main {
   }
 
 .bordearAbajo {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid nth($colores , 6 )
     
 }
 
@@ -147,7 +147,7 @@ form{
     font-size: 20px;
     padding-left: 35px;
     #mi-boton{
-        background-color: nth($colores ,1);
+        background-color: nth($colores ,6);
         font-size: 18px;
         padding: 5px 10px;
         border-radius: 10px;

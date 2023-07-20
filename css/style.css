@@ -4,14 +4,14 @@ header nav ul {
   list-style-type: none;
   justify-content: space-between;
   padding: 10px;
-  background-color: rgb(250, 217, 173);
+  background-color: #24262b;
 }
 header nav ul li a {
   font-family: "Comic Neue", cursive;
   font-family: "Prompt", sans-serif;
   font-weight: bold;
   color: black;
-  background-color: rgb(226, 43, 43);
+  background-color: #e91e63;
   padding: 5px;
   margin: 5px;
   text-decoration: none;
@@ -19,7 +19,7 @@ header nav ul li a {
   border: 2px solid black;
 }
 header nav ul li a:hover {
-  background-color: rgb(255, 102, 0);
+  background-color: rgb(148, 137, 137);
   color: white;
 }
 
@@ -32,13 +32,13 @@ div {
   margin-top: 10px;
 }
 div h1 {
-  border-left: solid 5px brown;
+  border-left: solid 5px #e91e63;
   margin-bottom: 30px;
   margin-left: 10px;
 }
 
 body {
-  background-color: rgb(243, 218, 186);
+  background-color: rgb(148, 137, 137);
 }
 
 .icon {
@@ -90,16 +90,16 @@ main div img {
 }
 
 .btncolor {
-  background-color: rgb(226, 43, 43);
+  background-color: #e91e63;
   border-radius: 30px;
 }
 
 .bordear, iframe {
-  border: solid 5px brown;
+  border: solid 5px #e91e63;
 }
 
 .activo {
-  background-color: rgb(255, 102, 0);
+  background-color: rgb(148, 137, 137);
   color: white;
 }
 
@@ -126,7 +126,7 @@ main div img {
   }
 }
 .bordearAbajo {
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid #e91e63;
 }
 
 dl, ol, ul {
@@ -139,7 +139,7 @@ form {
   padding-left: 35px;
 }
 form #mi-boton {
-  background-color: brown;
+  background-color: #e91e63;
   font-size: 18px;
   padding: 5px 10px;
   border-radius: 10px;

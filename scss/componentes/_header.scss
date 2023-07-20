@@ -7,7 +7,7 @@ header {
             list-style-type: none;
             justify-content: space-between;
             padding: 10px;
-            background-color: nth($colores , 5 );
+            background-color: nth($colores , 9 );
 
             li {
                 a {
@@ -15,7 +15,7 @@ header {
                     font-family: 'Prompt', sans-serif;
                     font-weight: bold;
                     color: black;
-                    background-color: nth($colores , 4 );
+                    background-color: nth($colores , 6 );
                     padding: 5px;
                     margin: 5px;
                     text-decoration: none;
@@ -23,7 +23,7 @@ header {
                     border: 2px solid black;
 
                     &:hover {
-                        background-color: rgb(255, 102, 0);
+                        background-color: nth($colores ,7);
                         color: white;
 
                     }
