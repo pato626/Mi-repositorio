@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="icon" type="image/x-icon" href="../imagen/favicon.ico">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 
@@ -23,12 +24,16 @@
       <ul>
 
 
+        <div id="carrito-icon">
+          <a href="./carrito.html"><img src="../imagen/carrito.jpg "class="carrito" alt="logo del carrito"></a>
+      </div>
 
         <li class="mar-top"><a href="./detalles.html">Detalles</a></li>
         <li class="mar-top"><a href="./contacto.html">Contacto</a></li>
         <li class="mar-top"><a class="activo" href="./productos.html">Productos</a></li>
         <li class="mar-top"><a href="./conocenos.html">Conócenos</a></li>
         <div><a href="../index.html"><img class="icon" src="../imagen/icono.png" alt="logo de la empresa"></a></div>
+
 
       </ul>
     </nav>
@@ -48,7 +53,8 @@
           <h5 class="card-title">Power Protein</h5>
           <p class="card-text">El Power Whey Protein es perfecto para deportistas que buscan aumentar su masa y fuerza
             muscular. Mejora la recuperación muscular post-ejercicio.</p>
-          <a href="#" class="btn btncolor ">Comprar</a>
+            <button data-product-id="power-protein">Comprar</button>
+
         </div>
       </div>
       <div style="width: 18rem;">
@@ -57,7 +63,7 @@
           <h5 class="card-title">Sportland</h5>
           <p class="card-text">La proteína hidrolizada es la proteína más indicada para el post entreno gracias a su
             rápida absorción y asimilación, además de su alto valor biológico.</p>
-          <a href="#" class="btn btncolor">Comprar</a>
+            <button data-product-id="sportland">comprar</button>
         </div>
       </div>
       <div style="width: 18rem;">
@@ -66,7 +72,7 @@
           <h5 class="card-title">Lupine protein</h5>
           <p class="card-text">Lupine Protein es un suplemento alimenticio premium 100% chileno, plant based y gluten
             free, producido y desarrollado en la Araucanía con la colaboración de agricultores Mapuche.</p>
-          <a href="#" class="btn btncolor">Comprar</a>
+            <button data-product-id="lupine-protein">Comprar</button>
         </div>
       </div>
       <div style="width: 18rem;">
@@ -76,7 +82,7 @@
           <p class="card-text"> es una proteína aislada de suero 100%. Tomado después de un entrenamiento, apoya el
             crecimiento muscular y la recuperación, pero también se puede utilizar como un reemplazo de comida para
             aquellos que intentan perder peso.</p>
-          <a href="#" class="btn btncolor">Comprar</a>
+            <button data-product-id="bpi-protein">Comprar</button>
         </div>
       </div>
     </div>
@@ -114,10 +120,16 @@
       </div>
     </div>
   </footer>
+  <script src="../productos.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+
+    
+
+    
+    
 </body>
 
 </html>
